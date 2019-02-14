@@ -14,11 +14,15 @@ public class Rectangle extends Shape implements Resizable {
 
 	@Override
 	public double getArea() {
-		return 0.;
+		double gA = width*height;
+		return gA;
 	}
 
 	@Override
 	public double getPerimeter() {
-		return 0.;
+		double w=width;
+		double h=height;
+		double lengh = (w+h)*2;
+		return lengh;
 	}
 }
